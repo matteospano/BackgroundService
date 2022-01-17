@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ShqgH8bdFbG9OGiunHdrjHSZlDmlZpr0ots5WYYoPK2L5VmYMp9YBOWSxTpEbfOY/BueCzAvkeQ2e0b0yW1/VQ==",
+  "dgSpecHash": "KZHGekP5rPiY6jgi4FvoDsNGzhXgnc7Z9xoL6tb4ei9A/EUIJ9SeszmPBZ/QKgGVlF0pUEsee+gyR4k+bYJHRw==",
   "success": true,
   "projectFilePath": "C:\\Users\\MatteoSpanò\\Documents\\workspace\\BackgroundService\\BackgroundService.csproj",
   "expectedPackageFiles": [
@@ -31,15 +31,21 @@
     "C:\\Users\\MatteoSpanò\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
     "C:\\Users\\MatteoSpanò\\.nuget\\packages\\microsoft.extensions.options.configurationextensions\\6.0.0\\microsoft.extensions.options.configurationextensions.6.0.0.nupkg.sha512",
     "C:\\Users\\MatteoSpanò\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "C:\\Users\\MatteoSpanò\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",
+    "C:\\Users\\MatteoSpanò\\.nuget\\packages\\microsoft.win32.registry\\5.0.0\\microsoft.win32.registry.5.0.0.nupkg.sha512",
+    "C:\\Users\\MatteoSpanò\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
     "C:\\Users\\MatteoSpanò\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.0\\system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
     "C:\\Users\\MatteoSpanò\\.nuget\\packages\\system.diagnostics.eventlog\\6.0.0\\system.diagnostics.eventlog.6.0.0.nupkg.sha512",
+    "C:\\Users\\MatteoSpanò\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
     "C:\\Users\\MatteoSpanò\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\MatteoSpanò\\.nuget\\packages\\system.security.accesscontrol\\5.0.0\\system.security.accesscontrol.5.0.0.nupkg.sha512",
+    "C:\\Users\\MatteoSpanò\\.nuget\\packages\\system.security.principal.windows\\5.0.0\\system.security.principal.windows.5.0.0.nupkg.sha512",
     "C:\\Users\\MatteoSpanò\\.nuget\\packages\\system.serviceprocess.servicecontroller\\6.0.0\\system.serviceprocess.servicecontroller.6.0.0.nupkg.sha512",
     "C:\\Users\\MatteoSpanò\\.nuget\\packages\\system.text.encodings.web\\6.0.0\\system.text.encodings.web.6.0.0.nupkg.sha512",
     "C:\\Users\\MatteoSpanò\\.nuget\\packages\\system.text.json\\6.0.0\\system.text.json.6.0.0.nupkg.sha512",
-    "C:\\Users\\MatteoSpanò\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\3.1.15\\microsoft.netcore.app.runtime.win-x64.3.1.15.nupkg.sha512",
-    "C:\\Users\\MatteoSpanò\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\3.1.15\\microsoft.aspnetcore.app.runtime.win-x64.3.1.15.nupkg.sha512",
-    "C:\\Users\\MatteoSpanò\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\3.1.15\\microsoft.windowsdesktop.app.runtime.win-x64.3.1.15.nupkg.sha512"
+    "C:\\Users\\MatteoSpanò\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\5.0.6\\microsoft.netcore.app.runtime.win-x64.5.0.6.nupkg.sha512",
+    "C:\\Users\\MatteoSpanò\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\5.0.6\\microsoft.windowsdesktop.app.runtime.win-x64.5.0.6.nupkg.sha512",
+    "C:\\Users\\MatteoSpanò\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\5.0.6\\microsoft.aspnetcore.app.runtime.win-x64.5.0.6.nupkg.sha512"
   ],
   "logs": []
 }
