@@ -2,6 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
+    <Nullable>enable</Nullable>
     <UserSecretsId>dotnet-BackgroundService-12EF6E4A-9D9E-4C30-A299-1F42C8A3DE22</UserSecretsId>
   </PropertyGroup>
 
