@@ -1,0 +1,4 @@
+C:\Users\MatteoSpanò\Documents\workspace\BackgroundService\obj\Release\netcoreapp3.1\win-x64\BackgroundService.csprojAssemblyReference.cache
+C:\Users\MatteoSpanò\Documents\workspace\BackgroundService\obj\Release\netcoreapp3.1\win-x64\BackgroundService.AssemblyInfoInputs.cache
+C:\Users\MatteoSpanò\Documents\workspace\BackgroundService\obj\Release\netcoreapp3.1\win-x64\BackgroundService.AssemblyInfo.cs
+C:\Users\MatteoSpanò\Documents\workspace\BackgroundService\obj\Release\netcoreapp3.1\win-x64\BackgroundService.csproj.CoreCompileInputs.cache
