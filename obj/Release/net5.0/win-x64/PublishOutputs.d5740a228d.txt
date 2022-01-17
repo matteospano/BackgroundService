@@ -1,0 +1,4 @@
+C:\Users\MatteoSpanò\Documents\workspace\appsettings.Development.json
+C:\Users\MatteoSpanò\Documents\workspace\appsettings.json
+C:\Users\MatteoSpanò\Documents\workspace\BackgroundService.pdb
+C:\Users\MatteoSpanò\Documents\workspace\BackgroundService.exe

@@ -1,4 +1,10 @@
-namespace App.WindowsService;
+using Microsoft.Extensions.Hosting;
+using Microsoft.Extensions.Logging;
+using System;
+using System.Threading;
+using System.Threading.Tasks;
+
+namespace App.WindowsService { 
 
 public sealed class WindowsBackgroundService : BackgroundService
 {
@@ -20,4 +26,5 @@ public sealed class WindowsBackgroundService : BackgroundService
             await Task.Delay(TimeSpan.FromMinutes(1), stoppingToken);
         }
     }
+}
 }

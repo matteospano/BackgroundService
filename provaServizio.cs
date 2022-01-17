@@ -1,7 +1,10 @@
+using System;
+using System.Net.Http;
 using System.Net.Http.Json;
 using System.Text.Json;
+using System.Threading.Tasks;
 
-namespace App.WindowsService;
+namespace App.WindowsService {
 
 public class provaServizio
 {
@@ -36,5 +39,5 @@ public class provaServizio
         }
     }
 }
-
-public record Prova(int Id, string Type, string Setup, string Punchline);
+    public record Prova(int Id, string Type, string Setup, string Punchline);
+}
