@@ -1,24 +1,15 @@
-using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Hosting;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using App.WindowsService;
 
-namespace BackgroundService
-{
-    public class Program
+using IHost host = Host.CreateDefaultBuilder(args)
+    .UseWindowsService(options =>
     {
-        public static void Main(string[] args)
-        {
-            CreateHostBuilder(args).Build().Run();
-        }
+        options.ServiceName = ".NET Prova Servizio";
+    })
+    .ConfigureServices(services =>
+    {
+        services.AddHostedService<WindowsBackgroundService>();
+        services.AddHttpClient<provaServizio>();
+    })
+    .Build();
 
-        public static IHostBuilder CreateHostBuilder(string[] args) =>
-            Host.CreateDefaultBuilder(args)
-                .ConfigureServices((hostContext, services) =>
-                {
-                    services.AddHostedService<Worker>();
-                });
-    }
-}
+await host.RunAsync();
