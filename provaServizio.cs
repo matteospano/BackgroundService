@@ -37,4 +37,4 @@ public class provaServizio
     }
 }
 
-public record Joke(int Id, string Type, string Setup, string Punchline);
+public record Prova(int Id, string Type, string Setup, string Punchline);
