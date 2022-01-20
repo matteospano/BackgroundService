@@ -1,43 +1,51 @@
+using Microsoft.Extensions.Configuration;
 using System;
 using System.Net.Http;
 using System.Net.Http.Json;
-using System.Text.Json;
 using System.Threading.Tasks;
 
-namespace App.WindowsService {
-
-public class provaServizio
+namespace App.WindowsService
 {
-    private readonly HttpClient _httpClient;
-    private readonly JsonSerializerOptions _options = new()
+    /*public class provaServizio
     {
-        PropertyNameCaseInsensitive = true
-    };
-
-    private const string ProvaApiUrl =
-        "https://karljoke.herokuapp.com/jokes/programming/random";
-
-    public provaServizio(HttpClient httpClient) => _httpClient = httpClient;
-
-    public async Task<string> GetProvaAsync()
-    {
-        try
+        private readonly IConfiguration Configuration;
+        private readonly HttpClient _httpClient;
+        public class EmailConfig
         {
-            // The API returns an array with a single entry.
-            Prova[]? prove = await _httpClient.GetFromJsonAsync<Prova[]>(
-                ProvaApiUrl, _options);
-
-            Prova? prova = prove?[0];
-
-            return prova is not null
-                ? $"{prova.Setup}{Environment.NewLine}{prova.Punchline}"
-                : "niente";
+            public string? Address { get; set; }
+            public string? Username { get; set; }
+            public string? Password { get; set; }
         }
-        catch (Exception ex)
+
+        private const string ProvaApiUrl = "https://karljoke.herokuapp.com/jokes/programming/random";
+        public provaServizio(HttpClient httpClient) => _httpClient = httpClient;
+
+        public async Task<EmailConfig> GetProvaAsync(EmailConfig emailConfig, int ciclo)
         {
-            return $"Errore {ex}";
+            //try{
+            Console.WriteLine("run #" + ciclo);
+            Console.WriteLine(emailConfig.Address);
+            Console.WriteLine(emailConfig.Username);
+            Console.WriteLine(emailConfig.Password);
+
+            // The API returns an array with a single entry. //
+            //Prova[]? prove = await _httpClient.GetFromJsonAsync<Prova[]>(ProvaApiUrl);
+            //Prova? prova = prove?[0];
+
+            EmailConfig nextEmailConfig = new EmailConfig
+            {
+                Address = "address #" + ciclo.ToString(),
+                Username = "username #" + ciclo.ToString(),
+                Password = "password #" + ciclo.ToString()
+            };
+
+            return nextEmailConfig;
+            //}
+            catch (Exception ex)
+            {
+                return null;
+            }
         }
     }
-}
-    public record Prova(int Id, string Type, string Setup, string Punchline);
+    public record Prova(int Id, string Type, string Setup, string Punchline);*/
 }
