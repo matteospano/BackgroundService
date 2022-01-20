@@ -14,8 +14,6 @@ namespace TechEdge.Mail.Receiver
 
         public string UserName { get; set; }
         public string Password { get; set; }
-
-        public string OutFolder { get; set; } //DA TOGLIERE
-        public bool DeleteMessages { get; set; }
+        //public bool DeleteMessages { get; set; }//DA TOGLIERE
     }
 }

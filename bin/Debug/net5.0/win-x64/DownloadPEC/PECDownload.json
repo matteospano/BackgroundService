@@ -4,6 +4,5 @@
   "UseSSL": true,
   "UserName": "roberto.alciati@pec.it",
   "Password": "PassP3r@ndrea",
-  "OutFolder": "C:\\TEMP\\PECDownload",
   "DeleteMessages": false
 }
