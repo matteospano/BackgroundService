@@ -269,3 +269,5 @@ C:\Users\MatteoSpanò\Documents\workspace\BackgroundService\bin\Debug\net5.0\win
 C:\Users\MatteoSpanò\Documents\workspace\BackgroundService\bin\Debug\net5.0\win-x64\DownloadPEC\PECDownload.json
 C:\Users\MatteoSpanò\Documents\workspace\BackgroundService\bin\Debug\net5.0\win-x64\AE.Net.Mail.dll
 C:\Users\MatteoSpanò\Documents\workspace\BackgroundService\bin\Debug\net5.0\win-x64\Newtonsoft.Json.dll
+C:\Users\MatteoSpanò\Documents\workspace\BackgroundService\bin\Debug\net5.0\win-x64\TechEdge.PEC48.dll
+C:\Users\MatteoSpanò\Documents\workspace\BackgroundService\bin\Debug\net5.0\win-x64\TechEdge.PEC48.pdb

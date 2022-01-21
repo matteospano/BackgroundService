@@ -16,6 +16,7 @@
           "Microsoft.Extensions.Hosting.WindowsServices": "5.0.0",
           "Microsoft.Extensions.Http": "5.0.0",
           "Newtonsoft.Json": "13.0.1",
+          "TechEdge.PEC48": "1.0.0.0",
           "runtimepack.Microsoft.NETCore.App.Runtime.win-x64": "5.0.6"
         },
         "runtime": {
@@ -1260,6 +1261,14 @@
             "fileVersion": "5.0.20.51904"
           }
         }
+      },
+      "TechEdge.PEC48/1.0.0.0": {
+        "runtime": {
+          "TechEdge.PEC48.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
       }
     }
   },
@@ -1518,6 +1527,11 @@
       "sha512": "sha512-p2yX167GW1pr2DCR6cW+cBKrvhli4thckXk108faFaTPHnoudb0AYPcIPq3nmrwn7IQj9FEmjpyJlXzcOmIjjw==",
       "path": "system.serviceprocess.servicecontroller/5.0.0",
       "hashPath": "system.serviceprocess.servicecontroller.5.0.0.nupkg.sha512"
+    },
+    "TechEdge.PEC48/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
     }
   },
   "runtimes": {
