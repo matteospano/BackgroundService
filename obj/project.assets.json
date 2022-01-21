@@ -512,6 +512,44 @@
             "rid": "win"
           }
         }
+      },
+      "CommonClasses/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/CommonClasses.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CommonClasses.dll": {}
+        }
+      },
+      "Mail/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "AE.Net.Mail": "1.7.10",
+          "CommonClasses": "1.0.0",
+          "Newtonsoft.Json": "13.0.1"
+        },
+        "compile": {
+          "bin/placeholder/Mail.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Mail.dll": {}
+        }
+      },
+      "SFTP/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "CommonClasses": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/SFTP.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SFTP.dll": {}
+        }
       }
     },
     "net5.0/win-x64": {
@@ -990,6 +1028,44 @@
         },
         "runtime": {
           "runtimes/win/lib/netstandard2.0/System.ServiceProcess.ServiceController.dll": {}
+        }
+      },
+      "CommonClasses/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/CommonClasses.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CommonClasses.dll": {}
+        }
+      },
+      "Mail/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "AE.Net.Mail": "1.7.10",
+          "CommonClasses": "1.0.0",
+          "Newtonsoft.Json": "13.0.1"
+        },
+        "compile": {
+          "bin/placeholder/Mail.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Mail.dll": {}
+        }
+      },
+      "SFTP/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "CommonClasses": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/SFTP.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SFTP.dll": {}
         }
       }
     }
@@ -1825,17 +1901,33 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "CommonClasses/1.0.0": {
+      "type": "project",
+      "path": "../commonClasses/CommonClasses.csproj",
+      "msbuildProject": "../commonClasses/CommonClasses.csproj"
+    },
+    "Mail/1.0.0": {
+      "type": "project",
+      "path": "../ClassLibrary1/Mail.csproj",
+      "msbuildProject": "../ClassLibrary1/Mail.csproj"
+    },
+    "SFTP/1.0.0": {
+      "type": "project",
+      "path": "../SFTP/SFTP.csproj",
+      "msbuildProject": "../SFTP/SFTP.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
-      "AE.Net.Mail >= 1.7.10",
+      "Mail >= 1.0.0",
       "Microsoft.Extensions.Configuration.Binder >= 5.0.0",
       "Microsoft.Extensions.Configuration.Json >= 5.0.0",
       "Microsoft.Extensions.Hosting >= 5.0.0",
       "Microsoft.Extensions.Hosting.WindowsServices >= 5.0.0",
       "Microsoft.Extensions.Http >= 5.0.0",
-      "Newtonsoft.Json >= 13.0.1"
+      "Newtonsoft.Json >= 13.0.1",
+      "SFTP >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -1864,7 +1956,14 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\MatteoSpanò\\Documents\\workspace\\ClassLibrary1\\Mail.csproj": {
+              "projectPath": "C:\\Users\\MatteoSpanò\\Documents\\workspace\\ClassLibrary1\\Mail.csproj"
+            },
+            "C:\\Users\\MatteoSpanò\\Documents\\workspace\\SFTP\\SFTP.csproj": {
+              "projectPath": "C:\\Users\\MatteoSpanò\\Documents\\workspace\\SFTP\\SFTP.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -1877,10 +1976,6 @@
       "net5.0": {
         "targetAlias": "net5.0",
         "dependencies": {
-          "AE.Net.Mail": {
-            "target": "Package",
-            "version": "[1.7.10, )"
-          },
           "Microsoft.Extensions.Configuration.Binder": {
             "target": "Package",
             "version": "[5.0.0, )"
