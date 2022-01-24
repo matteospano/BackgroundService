@@ -28,8 +28,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\MatteoSpanò\\Documents\\workspace\\ClassLibrary1\\Mail.csproj": {
-                "projectPath": "C:\\Users\\MatteoSpanò\\Documents\\workspace\\ClassLibrary1\\Mail.csproj"
+              "C:\\Users\\MatteoSpanò\\Documents\\workspace\\ClassLibrary1\\PECMail.csproj": {
+                "projectPath": "C:\\Users\\MatteoSpanò\\Documents\\workspace\\ClassLibrary1\\PECMail.csproj"
               },
               "C:\\Users\\MatteoSpanò\\Documents\\workspace\\SFTP\\SFTP.csproj": {
                 "projectPath": "C:\\Users\\MatteoSpanò\\Documents\\workspace\\SFTP\\SFTP.csproj"
@@ -110,12 +110,12 @@
         }
       }
     },
-    "C:\\Users\\MatteoSpanò\\Documents\\workspace\\ClassLibrary1\\Mail.csproj": {
+    "C:\\Users\\MatteoSpanò\\Documents\\workspace\\ClassLibrary1\\PECMail.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\MatteoSpanò\\Documents\\workspace\\ClassLibrary1\\Mail.csproj",
-        "projectName": "Mail",
-        "projectPath": "C:\\Users\\MatteoSpanò\\Documents\\workspace\\ClassLibrary1\\Mail.csproj",
+        "projectUniqueName": "C:\\Users\\MatteoSpanò\\Documents\\workspace\\ClassLibrary1\\PECMail.csproj",
+        "projectName": "PECMail",
+        "projectPath": "C:\\Users\\MatteoSpanò\\Documents\\workspace\\ClassLibrary1\\PECMail.csproj",
         "packagesPath": "C:\\Users\\MatteoSpanò\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\MatteoSpanò\\Documents\\workspace\\ClassLibrary1\\obj\\",
         "projectStyle": "PackageReference",

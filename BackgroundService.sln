@@ -5,11 +5,11 @@ VisualStudioVersion = 16.0.31229.75
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BackgroundService", "BackgroundService.csproj", "{14CBAC0E-AC24-4814-B5E4-26411FF3EB95}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mail", "..\ClassLibrary1\Mail.csproj", "{5552B1EA-1F51-4256-B3AE-61E4ED50C6D4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PECMail", "..\ClassLibrary1\PECMail.csproj", "{5552B1EA-1F51-4256-B3AE-61E4ED50C6D4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SFTP", "..\SFTP\SFTP.csproj", "{2CB5569B-0AC8-48D2-B568-D143A0D9315B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SFTP", "..\SFTP\SFTP.csproj", "{2CB5569B-0AC8-48D2-B568-D143A0D9315B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommonClasses", "..\commonClasses\CommonClasses.csproj", "{9C599B05-98C2-4A5B-B095-451DEDD18140}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CommonClasses", "..\commonClasses\CommonClasses.csproj", "{9C599B05-98C2-4A5B-B095-451DEDD18140}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

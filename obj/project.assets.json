@@ -523,7 +523,7 @@
           "bin/placeholder/CommonClasses.dll": {}
         }
       },
-      "Mail/1.0.0": {
+      "PECMail/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
@@ -532,10 +532,10 @@
           "Newtonsoft.Json": "13.0.1"
         },
         "compile": {
-          "bin/placeholder/Mail.dll": {}
+          "bin/placeholder/PECMail.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Mail.dll": {}
+          "bin/placeholder/PECMail.dll": {}
         }
       },
       "SFTP/1.0.0": {
@@ -1040,7 +1040,7 @@
           "bin/placeholder/CommonClasses.dll": {}
         }
       },
-      "Mail/1.0.0": {
+      "PECMail/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
@@ -1049,10 +1049,10 @@
           "Newtonsoft.Json": "13.0.1"
         },
         "compile": {
-          "bin/placeholder/Mail.dll": {}
+          "bin/placeholder/PECMail.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Mail.dll": {}
+          "bin/placeholder/PECMail.dll": {}
         }
       },
       "SFTP/1.0.0": {
@@ -1907,10 +1907,10 @@
       "path": "../commonClasses/CommonClasses.csproj",
       "msbuildProject": "../commonClasses/CommonClasses.csproj"
     },
-    "Mail/1.0.0": {
+    "PECMail/1.0.0": {
       "type": "project",
-      "path": "../ClassLibrary1/Mail.csproj",
-      "msbuildProject": "../ClassLibrary1/Mail.csproj"
+      "path": "../ClassLibrary1/PECMail.csproj",
+      "msbuildProject": "../ClassLibrary1/PECMail.csproj"
     },
     "SFTP/1.0.0": {
       "type": "project",
@@ -1920,13 +1920,13 @@
   },
   "projectFileDependencyGroups": {
     "net5.0": [
-      "Mail >= 1.0.0",
       "Microsoft.Extensions.Configuration.Binder >= 5.0.0",
       "Microsoft.Extensions.Configuration.Json >= 5.0.0",
       "Microsoft.Extensions.Hosting >= 5.0.0",
       "Microsoft.Extensions.Hosting.WindowsServices >= 5.0.0",
       "Microsoft.Extensions.Http >= 5.0.0",
       "Newtonsoft.Json >= 13.0.1",
+      "PECMail >= 1.0.0",
       "SFTP >= 1.0.0"
     ]
   },
@@ -1957,8 +1957,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\MatteoSpanò\\Documents\\workspace\\ClassLibrary1\\Mail.csproj": {
-              "projectPath": "C:\\Users\\MatteoSpanò\\Documents\\workspace\\ClassLibrary1\\Mail.csproj"
+            "C:\\Users\\MatteoSpanò\\Documents\\workspace\\ClassLibrary1\\PECMail.csproj": {
+              "projectPath": "C:\\Users\\MatteoSpanò\\Documents\\workspace\\ClassLibrary1\\PECMail.csproj"
             },
             "C:\\Users\\MatteoSpanò\\Documents\\workspace\\SFTP\\SFTP.csproj": {
               "projectPath": "C:\\Users\\MatteoSpanò\\Documents\\workspace\\SFTP\\SFTP.csproj"

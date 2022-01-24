@@ -20,7 +20,7 @@
    </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ClassLibrary1\Mail.csproj" />
+    <ProjectReference Include="..\ClassLibrary1\PECMail.csproj" />
     <ProjectReference Include="..\SFTP\SFTP.csproj" />
   </ItemGroup>
 </Project>
