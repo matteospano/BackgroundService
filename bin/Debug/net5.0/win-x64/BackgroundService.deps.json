@@ -9,13 +9,14 @@
     ".NETCoreApp,Version=v5.0/win-x64": {
       "BackgroundService/1.0.0": {
         "dependencies": {
-          "AE.Net.Mail": "1.7.10",
           "Microsoft.Extensions.Configuration.Binder": "5.0.0",
           "Microsoft.Extensions.Configuration.Json": "5.0.0",
           "Microsoft.Extensions.Hosting": "5.0.0",
           "Microsoft.Extensions.Hosting.WindowsServices": "5.0.0",
           "Microsoft.Extensions.Http": "5.0.0",
           "Newtonsoft.Json": "13.0.1",
+          "PECMail": "1.0.0",
+          "SFTP": "1.0.0",
           "runtimepack.Microsoft.NETCore.App.Runtime.win-x64": "5.0.6"
         },
         "runtime": {
@@ -1260,6 +1261,29 @@
             "fileVersion": "5.0.20.51904"
           }
         }
+      },
+      "CommonClasses/1.0.0": {
+        "runtime": {
+          "CommonClasses.dll": {}
+        }
+      },
+      "PECMail/1.0.0": {
+        "dependencies": {
+          "AE.Net.Mail": "1.7.10",
+          "CommonClasses": "1.0.0",
+          "Newtonsoft.Json": "13.0.1"
+        },
+        "runtime": {
+          "PECMail.dll": {}
+        }
+      },
+      "SFTP/1.0.0": {
+        "dependencies": {
+          "CommonClasses": "1.0.0"
+        },
+        "runtime": {
+          "SFTP.dll": {}
+        }
       }
     }
   },
@@ -1518,6 +1542,21 @@
       "sha512": "sha512-p2yX167GW1pr2DCR6cW+cBKrvhli4thckXk108faFaTPHnoudb0AYPcIPq3nmrwn7IQj9FEmjpyJlXzcOmIjjw==",
       "path": "system.serviceprocess.servicecontroller/5.0.0",
       "hashPath": "system.serviceprocess.servicecontroller.5.0.0.nupkg.sha512"
+    },
+    "CommonClasses/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PECMail/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SFTP/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   },
   "runtimes": {
