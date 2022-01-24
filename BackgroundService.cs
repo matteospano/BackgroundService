@@ -8,11 +8,12 @@ namespace App.WindowsService
         {
             PECMail.Program _mailReader= new PECMail.Program();
             SFTP.Class1 _class1 = new SFTP.Class1();
-            Console.WriteLine("MainBackgroundService chiama Mail:");
-            _mailReader.Main();//restituirà il buffer
+
+            Console.WriteLine("BackgroundService chiama Mail:");
+            byte[] Buffer = _mailReader.Main();
             Console.WriteLine("MainBackgroundService chiama SFTP:");
-            _class1.Main();
-            Console.WriteLine("---------------------------------Mail end-----------------------------------");
+            _class1.Main(Buffer);
+            Console.WriteLine("---------------------------------Process end-----------------------------------");
             Console.ReadKey();
         }
     }
