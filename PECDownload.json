@@ -1,0 +1,8 @@
+﻿{
+  "Host": "pop3s.pec.aruba.it",
+  "Port": 995,
+  "UseSSL": true,
+  "UserName": "roberto.alciati@pec.it",
+  "Password": "PassP3r@ndrea",
+  "DeleteMessages": false
+}
